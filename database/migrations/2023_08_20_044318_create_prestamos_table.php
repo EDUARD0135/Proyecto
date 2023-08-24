@@ -14,7 +14,7 @@ return new class extends Migration
             $table->date('fecha_solicitud');
             $table->date('fecha_prestamo');
             $table->date('fecha_devolucion');
-            $table->unsignedBigInteger('libro_id');
+            $table->unsignedBigInteger('libro_id'); 
             $table->unsignedBigInteger('usuario_id');
             $table->timestamps();
         });

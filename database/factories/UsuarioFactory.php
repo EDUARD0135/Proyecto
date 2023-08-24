@@ -21,7 +21,7 @@ class UsuarioFactory extends Factory
             'nombre'=>fake()->name(),
             'correo_electronico'=>fake()->Email(),
             'teléfono'=>fake()->numerify('########'),
-            'direccion'=>fake()->word()
+            'direccion'=>fake()->text()
         ];
     }
 }

@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Usuario extends Model
 {
     use HasFactory;
+
+    public function prestamos()
+    {
+        return $this->hasMany(Prestamo::class);
+    }
+
 }

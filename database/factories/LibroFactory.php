@@ -23,7 +23,7 @@ class LibroFactory extends Factory
             'autor'=>fake()->name(),
             'editorial'=>fake()->name(),
             'año_publicacion'=>fake()->numberBetween(1980,2023),
-            'cantidad_disponible'=>fake()->numberBetween(1,500)
+            'cantidad_disponible'=>fake()->numberBetween(1,100)
         ];
     }
 }

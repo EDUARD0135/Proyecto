@@ -11,6 +11,6 @@ class LibrosSeeder extends Seeder
 
     public function run(): void
     {
-        Libro::factory()->count(500)->create();
+        Libro::factory()->count(100)->create();
     }
 }

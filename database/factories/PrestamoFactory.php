@@ -22,8 +22,8 @@ class PrestamoFactory extends Factory
             'fecha_solicitud'=>fake()->date(),
             'fecha_prestamo'=>fake()->date(),
             'fecha_devolucion'=>fake()->date(),
-            'libro_id'=>fake()->numberBetween(1,500),
-            'usuario_id'=>fake()->numberBetween(1,500)
+            'libro_id'=>fake()->numberBetween(1,100),
+            'usuario_id'=>fake()->numberBetween(1,100)
         ];
     }
 }
